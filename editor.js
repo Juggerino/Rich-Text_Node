@@ -20,14 +20,21 @@ CDEditor = function (textarea){
         initIframe(container,textareaSource);
     };
 
+    
+    //var ComponebtButton = function (){
+    var ButtonI = document.createElement('button');
+    ButtonI.setAttribute('type','button')
+    ButtonI.appendChild(document.createTextNode('I'));
+    //ComponebtButton.call(this, commandName, buttonI, 'click');
+    }
 
-    var ComponentButton = function (commandName, icon){
+    /*var ComponentButton = function (commandName, icon){
         var button = document.createElement('select');
         var buttonIcon = document.createElement('i');
         buttonIcon.classList.add('fa', 'fa-' + icon);
         button.appendChild(buttonIcon);
         ComponentButton.call(this, commandName, button, 'click');
-    };
+    };*/
 
     var initToolbar = function (container, toolbar){
 
