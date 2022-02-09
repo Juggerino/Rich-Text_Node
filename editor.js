@@ -9,43 +9,14 @@ CDEditor = function (textarea){
     var toolbar = [];
     var iframe = null;
 
-
-
-
-    var init = function () {
-        textareaSource = document.querySelector(self.textarea);
-        textareaSource.Style.display = 'none';
-        container = textareaSource.parentElement;
-        initToolbar(container,toolbar);
-        initIframe(container,textareaSource);
-    };
-
+    //document.getElementById("negrito").onclick = function() {buttonN()};
     
-    //var ComponebtButton = function (){
-    var ButtonI = document.createElement('button');
-    ButtonI.setAttribute('type','button')
-    ButtonI.appendChild(document.createTextNode('I'));
-    //ComponebtButton.call(this, commandName, buttonI, 'click');
-    }
-
-    /*var ComponentButton = function (commandName, icon){
-        var button = document.createElement('select');
-        var buttonIcon = document.createElement('i');
-        buttonIcon.classList.add('fa', 'fa-' + icon);
-        button.appendChild(buttonIcon);
-        ComponentButton.call(this, commandName, button, 'click');
-    };*/
-
-    var initToolbar = function (container, toolbar){
-
-        var highlighter = new ComponentButton('backColor', 'highlighter');
-        highlighter.recoverValue = function () {
-            return selectedNode().style.backgroundColor == 'yellow' ? 'white' : 'yellow';
-        };
-
-
-        renderToolbar(container, toolbar);
-    };
+     
+            function buttonN(){
+                document.getElementById("clickMe").onclick = function () { alert('hello!'); };
+                //var button = document.getElementById("text").innerHTML = "AAAAAAA";
+                //return button
+            }
 
     var initIframe = function (container, textareaSource){
 
