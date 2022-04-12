@@ -1,0 +1,85 @@
+
+.principal{
+    background-color: #1d5e5a;
+    background-image: url("img/Flecha.png");
+    background-size: 40%;
+    background-position: 30% 300%;
+    Background-repeat:no-repeat;
+}
+
+#logo {
+    
+    position: relative;
+    width: 140px;
+    height: 140px;
+    left: 40%;
+    margin-top: 5%;
+}
+
+#nav{
+    width: 919px;
+    height: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    background-image: url("img/Navbar.png");
+    background-size: 919px;
+  
+}
+
+
+.btn.btn-primary{
+    width: 80px;
+    height: 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 8px;
+    background-color: #6B79AD;
+    color: #671D1D;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 13px;
+    transition:.3s;
+}
+
+.btn.btn-primary:hover{
+    height: 42px;
+    background-color: #6B79AD; 
+    color: #671D1D;
+    margin-top: -5px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.btn.btn-primary:focus{
+    height: 42px;
+    background-color: #6B79AD; 
+    color: #671D1D;
+    margin-top: -5px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+#text{
+    width: 919px;
+    height: 300px;
+    margin-left: 10%;
+    margin-right: 10%;  
+    color:#031417;
+    border: 0px;
+    border-radius: 5px;
+    background-image: url("img/Texto.png");
+    background-color: #1d5e5a;
+    background-size: 100%;
+    overflow: hidden;
+
+
+}
